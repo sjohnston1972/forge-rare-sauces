@@ -1,7 +1,5 @@
 export default {
   async fetch(request) {
-    const url = new URL(request.url);
-
     const sauces = [
       {
         name: "Sugo di Nana",
